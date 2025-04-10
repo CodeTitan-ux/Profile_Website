@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman Jambhulkar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+
+  <!-- Desktop Navigation -->
+  <nav id="desktop-nav">
+    <div class="logo">Aman Jambhulkar</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <nav id="hamburger-nav">
+    <div class="logo">Aman Jambhulkar</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+        <li><a href="#internships" onclick="toggleMenu()">Internships</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Aman's Profile Picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Aman Jambhulkar</h1>
+      <p class="section__text__p2">Full Stack Web Developer</p>
+        <div class="btn-container">
+        <!-- <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button> -->
+        <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+      </div> 
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/aman-jambhulkar-101233237/'" />
+        <img src="./assets/github.png" alt="GitHub" class="icon" onclick="location.href='https://github.com/CodeTitan-ux'" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.png" alt="About Picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience Icon" class="icon" />
+            <h3>Experience</h3>
+            <p>Ex-Intern At<br />Edunet Foundation , TechSaksham</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education Icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.E. in Information Technology<br />Sinhgad Academy of Engineering</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Passionate about crafting interactive and responsive web applications. 
+            Skilled in JavaScript, React, MongoDB, and building scalable front-end experiences. 
+            Constantly exploring new technologies and improving UI/UX standards.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Scroll Arrow" class="icon arrow" onclick="location.href='#experience'" />
+  </section>
+
+  <!-- Experience Section -->
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <!-- Frontend -->
+      <div class="details-container">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container">
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>HTML</h3><p>Experienced</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>CSS</h3><p>Experienced</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>React.js</h3><p>Intermediate</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>JavaScript</h3><p>Basic</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>TypeScript</h3><p>Basic</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>TailwindCSS</h3><p>Intermediate</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>Vite</h3><p>Intermediate</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>Nest.JS</h3><p>Intermediate</p></div></article>
+        </div>
+      </div>
+      <!-- Backend -->
+      <div class="details-container">
+        <h2 class="experience-sub-title">Backend & Tools</h2>
+        <div class="article-container">
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>Node JS</h3><p>Intermediate</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>Express JS</h3><p>Intermediate</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>Git</h3><p>Intermediate</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>MongoDB</h3><p>Advanced</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>MySQL</h3><p>Advanced</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>Python</h3><p>Intermediate</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>Java</h3><p>Intermediate</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>Php</h3><p>Intermediate</p></div></article>
+          <article><img src="./assets/checkmark.png" class="icon" alt="check" /><div><h3>C & C++</h3><p>Intermediate</p></div></article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Scroll Arrow" class="icon arrow" onclick="location.href='#projects'" />
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <!-- Project 1 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">AI Resume Screening System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/CodeTitan-ux/AI-powered-Resume-Screening-and-Ranking-System'">GitHub</button>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Cricket Player System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/CodeTitan-ux'">GitHub</button>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Online Auction Platform</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/CodeTitan-ux'">GitHub</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Scroll Arrow" class="icon arrow" onclick="location.href='#certifications'" />
+  </section>
+
+  <!-- Certifications Section -->
+<section id="certifications">
+  <p class="section__text__p1">Have a Look at My</p>
+  <h1 class="title">Certifications</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <!-- Cert 1 -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/certification-1.png" alt="Certification Image" class="project-img cert-clickable" />
+        </div>
+        <h2 class="experience-sub-title project-title">IITB Spoken Tutorial</h2>
+        <p class="text-container">
+          Completed the C++ training and passed the online exam with a score of 65%. The training was organized at Sinhgad Academy of Engineering, using course material from IIT Bombay.
+        </p>
+      </div>
+
+      <!-- Cert 2 -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/certification-2.png" alt="Certification Image" class="project-img cert-clickable" />
+        </div>
+        <h2 class="experience-sub-title project-title">NPTEL</h2>
+        <p class="text-container">
+          Completed 4-week NPTEL course on Software Testing, conducted by IIT Kharagpur. Scored 55%, and certified during Jan–Feb 2025 under the SWAYAM initiative.
+        </p>
+      </div>
+
+      <!-- Cert 3 -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/certification-3.png" alt="Certification Image" class="project-img cert-clickable" />
+        </div>
+        <h2 class="experience-sub-title project-title">IBM</h2>
+        <p class="text-container">
+          Completed "Getting Started with Enterprise-grade AI" by IBM via SkillsBuild. Gained foundational understanding of enterprise AI applications.
+        </p>
+      </div>
+    </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Scroll Arrow" class="icon arrow" onclick="location.href='#internships'" />
+</section>
+
+<!-- Image Modal -->
+<div id="imgModal" class="modal">
+  <span class="close-modal">&times;</span>
+  <img class="modal-content" id="modal-img" />
+</div>
+
+  <!-- Internships Section -->
+<section id="internships">
+  <p class="section__text__p1">Check Out My</p>
+  <h1 class="title">Internships</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <!-- Internship 1 -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/internship-1.png" alt="Internship Image" class="project-img cert-clickable" />
+        </div>
+        <h2 class="experience-sub-title project-title">Edunet Internship</h2>
+        <p class="text-container">
+          Completed a 6-week internship from February 10 to March 21, 2025, under the Next Gen Employability Program in collaboration with EY Global Delivery Services and AICTE. Gained hands-on experience in building modern web applications using the MERN stack (MongoDB, Express.js, React, Node.js), following industry practices and agile methodologies.
+        </p>
+      </div>
+
+      <!-- Internship 2 -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/internship-2.png" alt="Internship Image" class="project-img cert-clickable" />
+        </div>
+        <h2 class="experience-sub-title project-title">Techsaksham Internship</h2>
+        <p class="text-container">
+          Completed an AI-focused internship under the TechSaksham Program, a CSR initiative by Microsoft and SAP in association with AICTE and Edunet Foundation.
+        </p>
+      </div>
+    </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Scroll Arrow" class="icon arrow" style="display: block; margin: 20px auto; cursor: pointer;" onclick="location.href='#contact'" />
+</section>
+
+<!-- Image Modal for Full View -->
+<div id="imgModal" class="modal">
+  <span class="close-modal">&times;</span>
+  <img class="modal-content" id="modal-img" />
+</div>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <p><strong>Name:</strong> Aman Jambhulkar</p>
+      </div>
+      <div class="contact-info-container">
+        <p><strong>Email:</strong> <a href="mailto:amansj15021@gmail.com">amansj15021@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <p><strong>Phone Number:</strong> 9529827833</p>
+      </div>
+      <div class="contact-info-container">
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aman-jambhulkar-101233237/" target="_blank">LinkedIn Profile</a></p>
+      </div>
+      <div class="contact-info-container">
+        <p><strong>GitHub:</strong> <a href="https://github.com/CodeTitan-ux" target="_blank">GitHub Profile</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>&copy; 2025 Aman Jambhulkar. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
