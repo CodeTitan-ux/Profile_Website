@@ -9,6 +9,11 @@ Welcome to my responsive **Profile Website** built using **HTML**, **CSS**, and 
 ## 📸 Preview
 
 
+![Screenshot 2025-04-10 224436](https://github.com/user-attachments/assets/24d377dc-226b-49bc-9376-f7f71d108310)
+![Screenshot 2025-04-10 224449](https://github.com/user-attachments/assets/efcff4c5-ca75-4702-bc78-1ac406fc7661)
+![Screenshot 2025-04-10 224457](https://github.com/user-attachments/assets/b231148a-018a-481f-be1b-025a4183f3ae)
+![Screenshot 2025-04-10 224501](https://github.com/user-attachments/assets/1ac87c99-4f6e-4d1b-93aa-11146775e892)
+![Screenshot 2025-04-10 224507](https://github.com/user-attachments/assets/e8ddf5e9-6d20-4e6d-af61-cd6c7d21bc72)
 
 
 ---
@@ -75,7 +80,3 @@ If you like this project, please ⭐ the repository to show your support and hel
 
 This project is open-source and available under the [MIT License](LICENSE).
 ```
-
----
-
-Let me know if you want me to add badges, GitHub statistics, or a preview GIF as well!
