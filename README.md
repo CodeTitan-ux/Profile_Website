@@ -1,8 +1,3 @@
-Here's a beautifully formatted and presentable `README.md` file for your **Profile Website** project on GitHub:
-
----
-
-```markdown
 # 🌐 Profile Website
 
 🚀 **Live Demo:** [View Website](https://profile-website-delta-jet.vercel.app)
@@ -13,7 +8,8 @@ Welcome to my responsive **Profile Website** built using **HTML**, **CSS**, and 
 
 ## 📸 Preview
 
-![Website Preview](https://profile-website-delta-jet.vercel.app/assets/preview.png) <!-- Replace with actual preview image URL if available -->
+
+
 
 ---
 
